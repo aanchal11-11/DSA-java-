@@ -18,6 +18,9 @@ This repository tracks my journey in mastering Data Structures and Algorithms us
 | **Math & Logic** | [`prime.java`](./prime.java) | Efficient prime number checking using $\mathcal{O}(\sqrt{N})$ trial division for multiple test cases. |
 | **Patterns** | [`pattern1.java`](./pattern1.java) | Right-angled triangle star pattern generation. |
 | **Patterns** | [`pattern2.java`](./pattern2.java) | Inverted right-angled triangle star pattern generation. |
+| **Patterns** | [`pattern3.java`](./pattern3.java) | Floyd's triangle (sequential number triangle pattern). |
+| **Patterns** | [`pattern4.java`](./pattern4.java) | Right-aligned right-angled triangle star pattern (spaces + stars). |
+| **Patterns** | [`pattern5.java`](./pattern5.java) | Fibonacci triangle pattern (printing Fibonacci sequence numbers in a triangle). |
 
 ---
 
@@ -53,6 +56,36 @@ Prints a decreasing inverted right-angled triangle star pattern:
 *
 ```
 
+#### Pattern 3 (`pattern3.java`)
+Prints Floyd's Triangle (sequential numbers starting from 1):
+```text
+1
+2 3
+4 5 6
+7 8 9 10
+11 12 13 14 15
+```
+
+#### Pattern 4 (`pattern4.java`)
+Prints a right-aligned right-angled triangle star pattern (leading spaces followed by stars):
+```text
+        *
+      **
+    ***
+  ****
+*****
+```
+
+#### Pattern 5 (`pattern5.java`)
+Prints a Fibonacci Triangle pattern where numbers in each row follow the Fibonacci sequence ($0, 1, 1, 2, 3, 5, 8, \dots$):
+```text
+0	
+1	1	
+2	3	5	
+8	13	21	34	
+55	89	144	233	377	
+```
+
 ---
 
 ## 🛠️ How to Run
@@ -65,12 +98,12 @@ Prints a decreasing inverted right-angled triangle star pattern:
 
 2. **Compile any Java file:**
    ```bash
-   javac pattern1.java
+   javac pattern4.java
    ```
 
 3. **Run the compiled class:**
    ```bash
-   java pattern1
+   java pattern4
    ```
 
 ---
