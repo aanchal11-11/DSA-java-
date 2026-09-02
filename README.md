@@ -67,12 +67,12 @@ Prints Floyd's Triangle (sequential numbers starting from 1):
 ```
 
 #### Pattern 4 (`pattern4.java`)
-Prints a right-aligned right-angled triangle star pattern (leading spaces followed by stars):
+Prints a right-aligned right-angled triangle star pattern (leading tab spaces followed by stars on each row):
 ```text
-        *
-      **
-    ***
-  ****
+				*
+			**
+		***
+	****
 *****
 ```
 

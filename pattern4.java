@@ -17,6 +17,7 @@ public class pattern4 {
             }
             sp--;
             star++;
+            System.out.println();
         }
     }
     
